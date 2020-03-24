@@ -35,11 +35,13 @@ MovieID	Name	Genre
 
 
 Pseudo code:
-```sql 
-SELECT all the unique values in COLUMN [Movies].[Genres] as well as a COUNT of [Tickets].[Number]
-FROM TABLE [Tickets] (Stores all the movie tickets sold) and JOIN [Movies] (Stores all the different Movies) on to it to get the genre
+ 
+SELECT all the unique values in COLUMN [Movies].[Genres] 
+       as well as a COUNT of [Tickets].[Number]
+FROM TABLE [Tickets] (Stores all the movie tickets sold) and 
+JOIN [Movies] (Stores all the different Movies) on to it to get the genre
 It should only count WHERE the ticket purchase date falls in the specified timeframe
-```
+
 Please note:
 *	The [Tickets] table has millions of rows.
 *	The resulting data should be less than 30 rows.
