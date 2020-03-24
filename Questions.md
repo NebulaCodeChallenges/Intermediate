@@ -45,6 +45,20 @@ JOIN [Movies] (Stores all the different Movies) on to it to get the genre
 
 It should only count WHERE the ticket purchase date falls in the specified timeframe
 
+SQL example:
+
+```sql
+SELECT DISTINCT mov.[Genres], COUNT(tic.[Number])
+
+FROM [Tickets] tic
+
+JOIN [Movies] mov ON mov.[MovieID] = tic.[MovieID]
+
+WHERE tic.[PurchaseDate] >= '2020-01-01' AND tic.[PurchaseDate] <= '2020-04-01'
+
+GROUP BY mov.[Genres]
+```
+
 Please note:
 *	The [Tickets] table has millions of rows.
 *	The resulting data should be less than 30 rows.
