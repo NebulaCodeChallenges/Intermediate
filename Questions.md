@@ -16,9 +16,9 @@ The company has decided to give each employee a company email. All current email
 The email in Figure 1 will be updated to example@company.com. They need you to update the database to reflect this change.
 Come up with a solution to update all employee email addresses accordingly. 
 Please note*
-•	Assume the table you are updating matches the attached employee file exactly. 
-•	You can use any languages you like.
-•	The domains must remain unchanged.
+*	Assume the table you are updating matches the attached employee file exactly. 
+*	You can use any languages you like.
+*	The domains must remain unchanged.
 
 
 ## Question 3
@@ -41,9 +41,9 @@ FROM TABLE [Tickets] (Stores all the movie tickets sold) and JOIN [Movies] (Stor
 It should only count WHERE the ticket purchase date falls in the specified timeframe
 
 Please note:
-•	The [Tickets] table has millions of rows.
-•	The resulting data should be less than 30 rows.
-•	Assume the query is written exactly as the pseudocode states and no extra mistakes are made.
+*	The [Tickets] table has millions of rows.
+*	The resulting data should be less than 30 rows.
+*	Assume the query is written exactly as the pseudocode states and no extra mistakes are made.
 Please answer any two of the following questions
 Please describe how you would go about improving this query’s execution time.
 OR
