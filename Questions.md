@@ -64,10 +64,15 @@ Please note:
 *	The resulting data should be less than 30 rows.
 *	Assume the query is written exactly as the pseudocode states and no extra mistakes are made.
 Please answer any two of the following questions
+
 Please describe how you would go about improving this query’s execution time.
+
 OR
+
 Please propose possible tests to determine the cause of the slow execution
+
 OR
+
 Please advise on database structure and design changes we can investigate to mitigate slow queries such as this
 
 
