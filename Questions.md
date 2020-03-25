@@ -63,6 +63,7 @@ Please note:
 *	The [Tickets] table has millions of rows.
 *	The resulting data should be less than 30 rows.
 *	Assume the query is written exactly as the pseudocode states and no extra mistakes are made.
+
 Please answer any two of the following questions
 
 Please describe how you would go about improving this query’s execution time.
