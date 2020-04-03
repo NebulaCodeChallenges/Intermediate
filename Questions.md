@@ -1,5 +1,5 @@
-# Intermediate
-This is a repository for the intermediate code challenge.
+# Code Challenge
+
 
 Please see the attached CSV files. These files contain a client’s employee data as well as event detail for a single day from all relevant mobile vendors for SIMs owned by those employees. Please refer to these files when answering the following questions.
 
