@@ -79,4 +79,4 @@ Please advise on database structure and design changes we can investigate to mit
 
 ## Question 4
 
-In the language of your choosing, write a method or script that takes an integer parameter and prints the next five Fibonacci numbers starting at that interva. Any possible errors should be handled.
+In the language of your choosing, write a method or script that takes an integer parameter and prints the next five Fibonacci numbers starting at that interval. Any possible errors should be handled.
